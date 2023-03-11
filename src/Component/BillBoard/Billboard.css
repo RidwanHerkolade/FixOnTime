@@ -1,0 +1,43 @@
+.billboard__div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem 0rem;
+}
+.billboard__divs {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--color-nav);
+    border-radius: 0.4rem;
+    text-align: center;
+    padding: 4rem 0rem;
+}
+.billboard__divs h2 {
+    color: var(--color-white);
+    font-size: var(--font-headerss);
+    font-weight: 700;
+}
+.billboard__divs p {
+    margin: 0.7rem;
+    font-weight: 300;
+    color: var(--color-white);
+    font-size: var(--font-small);
+}
+.billboard__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.billboard__btn .btns {
+    border: 1px solid black;
+    background: var(--color-white);
+    color: var(--color-nav);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.7rem 1.8rem;
+    border-radius: 0.3rem;
+
+}

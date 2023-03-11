@@ -1,0 +1,22 @@
+.investor__div {
+    display: flex;
+    background: var(--color-grey);
+    width: 100%;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.inves__div {
+    width: 5rem;
+    display: flex;
+    margin: 0rem 2rem;
+    gap: 5rem !important;
+    align-items: center;
+    height: 4rem;
+}
+.inves__div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

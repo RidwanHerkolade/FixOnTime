@@ -1,0 +1,56 @@
+footer {
+    background: var(--color-nav);
+    position: relative;
+}
+.footer__div {
+    padding: 2rem 4rem;
+    position: relative;
+}
+.footer__links .fixon__logo {
+    width: 5rem;
+    height: 5rem;
+}
+.footer__links .fixon__logo img{
+    width: 100%;
+    height: 100%;
+}
+.footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.footer__divs {
+    display: flex;
+    padding: 9rem 0rem 1rem 0rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__divs::before {
+    width: 89%;
+    height: 0.5px;
+    bottom: 5.5rem;
+    content: "";
+    position: absolute;
+    background: var(--color-white);
+
+}
+.footer__downs {
+    color: var(--color-white);
+    font-size: var(--font-small);
+    font-weight: 300;
+}
+.footers__links {
+    margin: 0rem 1rem;
+    color: var(--color-white);
+    font-size: var(--font-small);
+    font-weight: 300;
+}
+.footers__icon{
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+.footer__icon{
+   display: flex;
+   align-items: center;
+}

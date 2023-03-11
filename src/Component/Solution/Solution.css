@@ -1,0 +1,28 @@
+.solution__div {
+    display: flex;
+    width: 100%;
+    background: var(--color-white);
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.solution {
+    position: relative;
+}
+.solution .sol__h2 {
+    color: var(--color-nav);
+    font-size: var(--font-headers);
+    font-weight: 700;
+}
+.img {
+    width: 5rem;
+    height: 7rem;
+    position: absolute;
+    top: -2rem;
+    right: -20rem;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,83 @@
+.servicesystem__divs {
+    background: ;
+}
+.system__divs {
+    background: var(--color);
+    margin: 3rem 5rem !important;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.service__system {
+    width: 100%;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+.system__contentss {
+    padding: 2rem 2.5rem;
+}
+.systems__img {
+    width: 100%;
+    height: 15rem;
+}
+.systems__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.system__content #h2 {
+    margin: 0.5rem 0rem;
+}
+.system__content h2 {
+    color: var(--color-nav);
+    font-weight: 800;
+    font-size: var(--font-headerss);
+}
+.system__contents {
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--color-grey7);
+    font-size: var(--font-small);
+}
+.system__contents .top {
+    margin: 0.6rem 0rem;
+}
+.request__service {
+    background: var(--color-nav);
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+    font-weight: 700;
+    color: var(--color-white);
+    font-size: var(--font-small);
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+/* ServiceSystems Styles */ 
+.sys__divs {
+    background: var(--color);
+    margin: 3rem 5rem !important;
+    box-shadow: var(--box-shadow);
+    padding: 2.5rem;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sys__image {
+    width: 100%;
+    height: 20rem;
+}
+.sys__image img{
+    width: 100%;
+    height: 100%;
+}
+

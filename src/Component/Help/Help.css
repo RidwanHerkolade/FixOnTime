@@ -1,0 +1,24 @@
+.help__div {
+    position: absolute;
+    right: 2.2rem;
+    bottom: -1.7rem;
+    display: flex;
+    align-items: center;
+}
+.help__divss {
+    border: 2px solid var(--color-white);
+    background: var(--color-green);
+    padding: 0.7rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.help__divss h2 {
+    font-size: var(--font-small);  
+    font-weight: 400;
+    margin: 0rem 0.5rem;
+}
+

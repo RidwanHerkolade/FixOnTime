@@ -1,0 +1,55 @@
+.subscribe__div {
+    display: flex;
+    padding: 4rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-white);
+    align-items: center;
+}
+.subscribe__div p {
+    width: 30%;
+    font-weight: 300;
+    margin-top: 0.5rem;
+    line-height: 20px;
+    text-align: center;
+    font-size: var(--font-small);
+    color: var(--color-brown);
+    width: 400;
+}
+.subscribe__div h2 {
+    font-size: var(--font-headerss);
+    color: var(--color-nav);
+    font-weight: 700;
+}
+.subscribe__div form {
+    margin-top: 1.5rem;
+    position: relative;
+} 
+.subscribe__div form input {
+    width: 30rem;
+    padding: 0.8rem 0.5rem;
+    font-size: var(--font-smalls);
+    border-radius: 0.3rem;
+    font-family: var(--font-familys);
+    outline: none;
+    border: 0.3px solid var(--color-borderss);
+    color: var(--color-red);
+}
+.subscribe__div form input::placeholder {
+    color: var(--color-borders);
+}
+.subscribe__btn {
+    position: absolute;
+    font-size: var(--font-smalls);
+    background: var(--color-nav);
+    color: var(--color-white);
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    right: 0.3rem;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    font-weight: 300;
+    top: 0.3rem;
+}
+

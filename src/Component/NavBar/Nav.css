@@ -1,0 +1,117 @@
+nav {
+    width: 100%;
+    background: var(--color-nav);
+}
+.nav__lists {
+    display: flex;
+    margin: 0rem 5rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.email {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.communication__list  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.communication__list a {
+    display: flex;
+    align-items: center;
+    margin: 0rem 1rem;
+    color: var(--color-white);
+    font-size: var(--font-small);
+    font-weight: 300;
+}
+.icon {
+    cursor: pointer;
+    display: flex;
+    margin: 0rem 1rem;
+    align-items: center;
+}
+
+/* NAVHEAD STYLES */
+.links{
+    position: relative;
+    width: 100%;
+    display: flex;
+    background: var(--color-grad);
+    box-shadow: var(--box-shadows);
+    backdrop-filter: blur(25px);
+}
+.route__links {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    text-align: center;
+    font-family: var(--font-family);
+    padding: 0.5rem;
+    align-items: center;
+}
+.fixon__logo {
+     width: 7rem;
+     height: 2.5rem;
+}
+.fixon__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.router__links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    position: relative !important;
+    margin-right: 9rem;
+}
+.router__links .nav__links {
+    margin: 0rem 1rem;
+    position: relative !important;
+    text-transform: capitalize;
+    font-size: var(--font-small);
+    color: var(--color-brown);
+    font-weight: 500;
+
+}
+.router__links .nav__links::before {
+    position: absolute;
+    content: "";
+    bottom: -1.28rem;
+    background: none;
+    width: 100%;
+    height: 0.2rem;
+
+}
+.router__links .nav__links:hover::before {
+    background: var(--color-red);
+}
+
+.router__links .nav__links:hover {
+   color: var(--color-red);
+
+}
+.router__service {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-red);
+}
+.router__services {
+    display: flex;
+    align-items: center;
+}
+.nav__link {
+    font-family: var(--font-family);
+    color: var(--color-white);
+    font-weight: 500;
+    font-size: var(--font-books);
+}
+.arrow {
+    margin-left: 0.5rem;
+}

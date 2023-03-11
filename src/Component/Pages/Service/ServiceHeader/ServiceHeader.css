@@ -1,0 +1,37 @@
+.serviceHeader__div {
+    width: 100%;
+    background: url(/public/images/about.png);
+}
+.serviceHeader__divs {
+    display: grid;
+    grid-template-columns: 60% auto;
+    align-items: center;
+}
+.serviceHeader__divs .divss {
+    margin: 0rem 6rem;
+}
+ .serviceHeader__divs h2 {
+    color: var(--color-nav);
+    font-size: var(--font-headers);
+    font-weight: 700;
+}
+.serviceHeader__divs .service__content {
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: center;
+    font-weight: 500;
+    font-size: var(--font-small);
+    width: 50%;
+    line-height: 20px;
+    color: var(--color-zero); 
+}
+
+.service__headerimg {
+    width: 100%;
+    height: 40vh;
+}
+.service__headerimg img{
+    width: 100%;
+    opacity: 0.6;
+    height: 100%;
+}

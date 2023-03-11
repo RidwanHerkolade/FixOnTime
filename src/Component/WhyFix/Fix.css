@@ -1,0 +1,107 @@
+.fix__div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fix__divs {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 5rem;
+}
+.fix__divs h2 {
+    color: var(--color-nav);
+}
+.fix__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.fix__content {
+    position: relative;
+}
+.fixs .h2 {
+    font-size: var(--font-small);
+    font-weight: 500;
+}
+.fixs .contents {
+    font-size: var(--font-smalls);
+    margin-top: 0.2rem;
+}
+.fixs {
+   cursor: pointer;
+    margin: 1rem 3rem;
+    color: var(--color-grey5);
+}
+.fixs::before {
+    position: absolute;
+    content: "";
+    left: 0rem;
+    height: 3rem;
+    width: 2px;
+    background: var(--color-grey2);
+    border-collapse: collapse;
+    cursor: pointer;
+}
+.fixs:hover::before {
+    background: var(--color-red);
+}
+.fixs:hover {
+    color: var(--color-nav) !important;
+}
+
+.fix__back {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    position: relative;
+}
+.fix__back::before{
+    content: "";
+    position: absolute;
+    width: 57%;
+    height: 25rem;
+    z-index: 11;
+    right: 3rem;
+    background: var(--color-grey2)
+}
+.fix__imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+    z-index: 11;
+}
+.fix__imgs img {
+    width: 60%;
+    height: 80%;
+    z-index: 11;
+    /* object-fit: cover; */
+}
+.support {
+    display: flex;
+    position: absolute;
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+    bottom: 0rem;
+    left: 2.8rem;
+    z-index: 11;
+    align-items: center;
+     border-radius: 0.2rem;
+    padding: 0.5rem 2.5rem;
+}
+.support .support__icon {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.support__icon img {
+    width: 100%;
+    height: 100%;
+}
+.team h2 {
+    font-size: var(--font-smalls);
+    color: var(--color-nav);
+    text-transform: capitalize;
+}

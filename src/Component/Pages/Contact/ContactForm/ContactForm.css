@@ -1,0 +1,152 @@
+.contactform__div {
+    width: 100%;
+    background: var(--color-white);
+}
+.contactform__divsss {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: var(--color-nav);
+   margin: 3rem 5rem;
+}
+
+.contact__details {
+    margin: 4rem;
+   
+}
+.contactform__divss {
+    margin: 3rem 0rem;
+}
+.contact__details h2{
+    color: var(--color-white);
+    font-size: var(--font-fold);
+    width: 70%;
+    
+}
+.address {
+    display: flex;
+    margin: 1.5rem 0rem;
+    flex-direction: column;
+}
+.add {
+    display: flex;
+    align-items: center;
+}
+.add label {
+    font-size: var(--font-small);
+    color: var(--color-white);
+    margin: 0rem 0.6rem;
+}
+.add img {
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    height: 0.8rem;
+    object-fit: contain;
+}
+
+.form__links {
+    font-size: var(--font-small);
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+.form__linkss {
+    font-size: var(--font-small);
+    width: 60%;
+    margin: 0.5rem 0rem;
+    color: var(--color-white);
+}
+.contactform__btn {
+    padding: 0.5rem 1rem;
+    font-size: var(--font-small);
+    font-weight: 800;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: var(--color-nav);
+    background: var(--color-white);
+    display: flex;
+    justify-content: center;
+    width: 9rem;
+}
+
+/*  FORM STYLES */
+form {
+    padding: 2rem 0rem;
+}
+.form__divs {
+    background: var(--color-grey);
+}
+.form__div{
+    margin: 4rem;
+}
+
+.form__div h2 {
+    color: var(--color-nav);
+    font-size: var(--font-headerss);
+    font-style: 800;
+}
+
+.form__inputss {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+
+}
+.form__input {
+    display: flex;
+    flex-direction: column;
+}
+.form__input input {
+    padding: 0.5rem 1rem;
+    border: 0.3px solid var(--color-grey6);
+    outline: none;
+    border-radius: 0.3rem;
+}
+.form__input textarea {
+    padding: 0.5rem 1rem;
+    resize: none;
+    height: 15vh;
+    border: 0.3px solid var(--color-grey6);
+    outline: none;
+    border-radius: 0.3rem;
+
+}
+.form__inputs {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin: .5rem 0rem; */
+
+}
+.form__input label {
+    color: var(--color-grey7);
+    font-size: var(--font-small);
+    text-transform: capitalize;
+}
+.button {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: var(--font-small);
+    cursor: pointer;
+    font-family: var(--font-familys);
+    border: none;
+    border-radius: 0.3rem;
+    outline: none;
+    color: var(--color-white);
+    margin: 1rem 0rem;
+    background: var(--color-nav);
+    outline: none;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.errors {
+    color: var(--color-red);
+    font-size: var(--font-smalls);
+    line-height: 20px !important;
+}
+.errors__divs {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+.blog__head {
+    display: flex;
+    height: 40vh;
+    background: url(/public/images/rec166.png);
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.blog__head h2 {
+    color: var(--color-nav);
+    font-size: var(--font-headers);
+    font-weight: 800;
+}
+.blog__head p {
+    font-size: var(--font-small);
+    font-weight: 400;
+    line-height: 30px;
+}
+.blog__head form {
+    margin-top: 1rem;
+    position: relative;
+}
+.blog__head form input {
+    width: 24rem;
+    font-family: var(--font-familys);
+    text-transform: capitalize;
+    outline: none;
+    padding: 0.6rem 1rem;
+    border: 0.1px solid var(--color-nav);
+}
+.blog__head form input::placeholder {
+    color: var(--color-grey5);
+    font-size: var(--font-smalls);
+    font-weight: 300;
+}
+.blog__head form .search__icon {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+}
