@@ -23,22 +23,18 @@ const Enquiries = () => {
                            </div>
                            </div>
                            <div className="form__inputs">
-                                 {/* <div className="form__inputsss"> */}
+                               
                                          <div className="form__input">
                                              <label htmlFor="Email">Email</label>
                                               <input type="email" />
                                         </div>
 
-                                 {/* </div> */}
-                                 {/* <div className="form__inputsss"> */}
                                          <div className="form__input">
                                              <label htmlFor="phone no">Phone number</label>
                                               <input type="number" />
                                         </div>
 
-                                 {/* </div> */}
-                               
-
+                                
                            </div>
                            <div className="form__inputsss">
                            <div className="form__input">
