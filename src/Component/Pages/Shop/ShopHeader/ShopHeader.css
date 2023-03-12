@@ -62,3 +62,151 @@
     height: 100%;
     object-fit: contain;
 }
+
+/* SHOPID STYLESS */
+.shopid__divs {
+    background: var(--color-white);
+    border-top: 1px solid var(--color-white);
+    box-shadow: var(--box-shadows);
+    position: relative;
+    padding: 4rem 0rem;
+}
+.shopgrid__grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    margin: 0rem 7rem !important;
+    justify-items: center;
+    align-items: center;
+    
+}
+.shopid__img {
+    width: 25rem;
+    height: 23rem
+}
+.shopid__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.shop__content h2 {
+    color: var(--color-nav);
+    font-size: var(--font-headers);
+}
+.shop__content p {
+    display: flex;
+    margin: 0.5rem 0rem;
+    align-items: center;
+    font-size: var(--font-smalls);
+}
+.shop__content p img {
+    width: 4rem;
+    margin-left: 0.5rem;
+    height: 1rem;
+}
+.shop__content .download {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem;
+    align-items: center;
+    border: 1px solid black;
+    width: 13rem;
+    padding: 0.5rem 1rem;
+}
+.shop__content .contents {
+    color: var(--color);
+    font-size: var(--font-small);
+    line-height: 25px;
+}
+.shop__content .enquiries {
+    border: 0.5px solid var(--color-nav);
+    color: var(--color-nav);
+    margin: 1rem 0rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    padding: 0.5rem 1rem;
+}
+
+/* ENQUIRIES */
+.shop__here {
+    position: relative;
+
+}
+.enquiries__div {
+    position: absolute;
+    top: 7rem;
+    transform: translateX(100%);
+    background: var(--color-white);
+    display: flex;
+    justify-content: center;
+}
+.enquiries__divs {
+    box-shadow: var(--box-shadows);
+
+}
+.enquiries__divs form {
+    padding: 1rem 1.5rem;
+}
+
+.h2__header {
+    background: var(--color-grey);
+    padding: 1.7rem 0rem;
+    
+}
+.h2__header h2 {
+    display: flex;
+    justify-content: center;
+    z-index: 11;
+    color: var(--color-nav) !important;
+    font-weight: 800;
+}
+.form__input .select {
+    padding: 0.5rem 0.4rem;
+    margin: 0rem !important;
+    border: 0.3px solid var(--color-grey6);
+    background: transparent;
+    outline: none;
+    border-radius: 0.3rem;
+}
+.form__inputsss {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+
+}
+.buttons {
+    display: flex;
+    color: var(--color-white);
+    border: transparent;
+    border-radius: 0.3rem;
+    font-family: var(--font-familys);
+    width: 8rem;
+    justify-content: center;
+    font-weight: 400;
+    background: var(--color-nav);
+    padding: 0.4rem 1rem;
+    background: var(--color-nav);
+
+}
+.cancel {
+    width: 8rem;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    font-size: var(--font-small);
+    margin-left: 0.8rem;
+    padding: 0.3rem 1rem;
+    color: var(--color-nav);
+    border: 0.5px solid var(--color-nav);
+}
+.form__inputBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

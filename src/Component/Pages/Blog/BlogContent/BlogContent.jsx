@@ -21,7 +21,7 @@ function BlogContent({search}){
                                        <img src={data.img}/>
                                   </div>
                                   <div className="blogcontent__header">
-                                       <Link to={`/blogapp/${data.vbid}`} className="h2">{data.header}</Link>
+                                       <Link to={`/blogapp/${data.id}`} className="h2">{data.header}</Link>
                                        <p>{data.tips}</p>
                                   </div>
                                   <div className="date">{date.toLocaleDateString()}</div>

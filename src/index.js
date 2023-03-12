@@ -10,11 +10,13 @@ import Class from './Component/Pages/Class/Class'
 import BlogApp from './Component/Pages/Blog/BlogApp/BlogApp';
 import ContactApp from './Component/Pages/Contact/ContactApp/ContactApp';
 import Request from './Component/Pages/Request/Request';
+import ShopId from './Component/Pages/Shop/ShopHeader/ShopId';
 ReactDOM.render(
   <BrowserRouter>
        <Routes>
            <Route path="/" element={<App />} />
            <Route path="shopapp" element={<ShopApp/>} />
+           <Route path="/shopheader/:shopheaderId" element={<ShopId/>}/>
            <Route path="serviceapp" element={<ServiceApp/>} />
            <Route path="class" element={<Class/>} />
            <Route path="/blogapp/:id" element={<BlogApp/>} />
