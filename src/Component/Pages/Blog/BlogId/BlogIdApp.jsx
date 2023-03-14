@@ -3,7 +3,6 @@ import Footer from "../../../Footer/Footer";
 import Nav from "../../../NavBar/Nav";
 import NavHead from "../../../NavBar/NavHead";
 import BlogIdHeader from "./BlogIdHeader/BlodIdHeader";
-import Footer from "../../../Footer/Footer";
 import { useParams } from "react-router-dom";
 import BlogIdData from "./BlogIdData";
 

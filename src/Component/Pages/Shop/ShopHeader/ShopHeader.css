@@ -133,29 +133,35 @@
 }
 
 /* ENQUIRIES */
+
 .shop__here {
     position: relative;
 
 }
 .enquiries__div {
-    position: absolute;
-    top: 7rem;
-    transform: translateX(100%);
+    width: 100%;
     background: var(--color-white);
     display: flex;
     justify-content: center;
+    height: 100%;
+    align-items: center;
 }
 .enquiries__divs {
-    box-shadow: var(--box-shadows);
+      box-shadow: var(--box-shadow);
+     background: var(--color-white);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ 
 
 }
 .enquiries__divs form {
-    padding: 1rem 1.5rem;
+    padding: 0.8rem 1.5rem;
 }
 
 .h2__header {
     background: var(--color-grey);
-    padding: 1.7rem 0rem;
+    padding: 1.5rem 0rem;
     
 }
 .h2__header h2 {
@@ -176,7 +182,7 @@
 .form__inputsss {
     display: flex;
     flex-direction: column;
-    margin: 1rem 0rem;
+    margin: 0.78rem 0rem;
 
 }
 .buttons {
@@ -189,6 +195,7 @@
     justify-content: center;
     font-weight: 400;
     background: var(--color-nav);
+    cursor: pointer;
     padding: 0.4rem 1rem;
     background: var(--color-nav);
 
@@ -200,6 +207,7 @@
     justify-content: center;
     background: transparent;
     font-size: var(--font-small);
+    cursor: pointer;
     margin-left: 0.8rem;
     padding: 0.3rem 1rem;
     color: var(--color-nav);
@@ -209,4 +217,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+/* CONFIRM STYLES */
+
+.confirm__divs {
+    display: flex;
+    position: absolute;
+    padding: 5rem;
+    justify-content: center;
+    /* background:  var(--color-white); */
+    align-items: center;
+}
+.confirm__div  {
+     display: flex;
+     justify-content: center;
+     width: 80%;
+     align-items: center;
+     flex-direction: column;
+     box-shadow: var(--box-shadow);
+     background: var(--color-white);
+     padding: 3rem 1rem;
+}
+.confirm__div h2 {
+    font-size: var(--font-small);
+    font-weight: 700;
+    margin-top: 0.6rem;
+}
+.confirm__div p {
+    font-size: var(--font-small);
+    width: 70%;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.7rem 0rem;
+    color: var(--color-grey8);
+
+}
+.confirm__div .ok {
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    background: var(--color-nav);
+    padding: 0.4rem 2rem;
+    cursor: pointer;
+    width: 8rem;
+    margin: 0.5rem 0rem;
+    border-radius: 0.3rem;
+}
+.confirm__div .confirm__ img{
+    width: 1rem;
+    height: 0.6rem;
+}
+.confirm__div .confirm__ img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
