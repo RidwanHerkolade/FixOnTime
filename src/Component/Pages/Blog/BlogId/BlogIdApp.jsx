@@ -7,8 +7,8 @@ import { useParams } from "react-router-dom";
 import BlogIdData from "./BlogIdData";
 
 const BlogIdApp = () => {
-    const { blogappId } = useParams();
-    const myData = BlogIdData .find(data => data.id === blogappId)
+    const { blogcontentId } = useParams();
+    const myData = BlogIdData .find(data => blogcontentId === data.id)
      return (
         <div className="BlogIdApp">
              <Nav/>

@@ -1,14 +1,16 @@
 import React from "react";
 import BlogIdContent from "../BlogIdContent/BlogIdContent";
-const BlogIdHeader = () => {
+import './BlogIdHeader.css'
+
+const BlogIdHeader = ({myData}) => {
    
       return (
              <div className="">
-                  <div className="blogidheader">
-                     <h2>hello motherfucker</h2>
+                  <div className="blogidheader__div">
+                         <h2>{myData.header}</h2>
                   </div>
 
-                  <BlogIdContent/>
+                  <BlogIdContent myData={myData}/>
 
 
              </div>
